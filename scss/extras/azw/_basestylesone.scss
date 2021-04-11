@@ -1,0 +1,49 @@
+.azw-navbar {
+  background: linear-gradient(to right, $theme-color-1, $theme-color-2);
+}
+nav.navbar .logo img {
+  border-radius: 50%;
+  height: 50px;
+  object-fit: contain;
+}
+#nav-drawer {
+  background: linear-gradient(to right, $theme-color-2, $theme-color-1);
+}
+#nav-drawer li:hover {
+  opacity: 0.6;
+  background: transparent;
+}
+nav.navbar .drawer-toggle {
+  background: linear-gradient(to left, $theme-color-1, $theme-color-2);
+}
+
+nav.navbar ul.navbar-nav .popover-region .popover-region-toggle {
+  color: #ffffff;
+}
+
+#page-site-index.notloggedin .frontpage-numbers {
+  background: linear-gradient(to right, $theme-color-1, $theme-color-2);
+}
+
+nav.navbar .navbar-brand .site-name {
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+#boxForm {
+  border-radius: 25px;
+}
+.login-title {
+  color: dodgerblue;
+}
+body.notloggedin #loginbox .sign-up-btn .btn {
+  background: linear-gradient(to right, $theme-color-1, $theme-color-2);
+  padding: 2px 20px;
+  border-radius: 30px;
+  font-size: 1.2rem;
+}
+#nav-drawer-footer {
+  background: linear-gradient(to right, $theme-color-1, $theme-color-2);
+}
+.azwfooter {
+  color: #ffffff;
+}
